@@ -39,6 +39,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+
+
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{% url 'newmoban' %}">模板</a>
+            </li>
             <li class="nav-item mx-0 mx-lg-1">
 
 
@@ -56,39 +61,43 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-dark text-center" style="background: url({% static 'web/img/portfolio/bg_a649917.jpg' %}) no-repeat center top">
+
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="{% static 'web/img/profile.png' %}" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="{% static 'web/img/sf/looo.png' %}" alt="">
         <h1 class="text-uppercase mb-0">再续经典,永无止境</h1>
-        <hr class="star-light">
+          <br>
         <h2 class="font-weight-light mb-0">专业传奇sf设计,定制属于你的游戏世界!</h2>
       </div>
+
     </header>
 
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">业务范围</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x">
+                    登陆器
+                  </i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'web/img/portfolio/cabin.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'web/img/portfolio/dengluqi.webp' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="fa fa-search-plus fa-3x">网页</i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'web/img/portfolio/cake.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'web/img/portfolio/webmoban.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -295,13 +304,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">登陆器制作</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/cabin.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/dengluqi.webp' %}" alt="">
+              <p class="mb-5">传奇sf登陆器专业制作.</p>
+              <a class="btn btn-primary btn-lg" href="{% url 'moban_index' %}">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                查看模板</a>
             </div>
           </div>
         </div>
@@ -319,7 +328,7 @@
             <div class="col-lg-8 mx-auto">
               <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/cake.png' %}" alt="">
+              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/webmoban.png' %}" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>

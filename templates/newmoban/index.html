@@ -1,32 +1,30 @@
 
-{% extends 'moban/base.html' %}
+{% extends 'newmoban/base.html' %}
 {% load static %}
 {% block title %}
 传奇sf模板~~~~~~~~~~
 {% endblock %}
 {% block body %}
 
-
-    <!-- Page Content -->
     <div class="container">
-
-      <!-- Page Heading -->
-      <h1 class="my-4">传奇登陆器模板
-        <small>可定制</small>
-      </h1>
+      <h5 class="my-4">
+          <span class="fui-location"></span>
+          登陆器模板
+          <a href="#fakelink" class="btn  btn-sm btn-success">可定制</a>
+      </h5>
 
       <div class="row">
           {% for page_of_login in page_of_logins.object_list %}
               <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
               <div class="card h-100">
-                <a href="{% url 'page_login' page_of_login.id %}"><img class="card-img-top" src="{{ page_of_login.pic }}" alt=""></a>
-
+{#                <a href="{% url 'page_login' page_of_login.id %}"><img class="card-img-top" src="{{ page_of_login.pic }}" alt=""></a>#}
+                <img class="img-rounded img-responsive" src="{{ page_of_login.pic }}">
                 <div class="card-body">
-                  <h4 class="card-title">
+                  <h6 class="card-title">
                     <a href="#">{{ page_of_login.title }}</a>
-                  </h4>
-                  <p class="card-text">价格:{{ page_of_login.sale_price.price }}</p>
-                    {{ page_of_login.content|safe }}
+                  </h6>
+                  <p class="card-text palette palette-alizarin">价格:{{ page_of_login.sale_price.price }}</p>
+                    {{ page_of_login.content|striptags|truncatechars:70 }}
                 </div>
               </div>
             </div>
@@ -35,7 +33,7 @@
 
       </div>
       <!-- /.row -->
-
+<br>
       <!-- Pagination -->
       <ul class="pagination justify-content-center">
         <li class="page-item">
@@ -53,9 +51,16 @@
 
         </li>
           {% for page_num in page_of_logins.paginator.page_range %}
-              <li class="page-item">
+              {% if page_num == page_of_logins.number %}
+                  <li class="page-item active">
                   <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
               </li>
+              {% else %}
+                  <li class="page-item">
+                  <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
+              </li>
+              {% endif %}
+
           {% endfor %}
 
 

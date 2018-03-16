@@ -1,0 +1,33 @@
+{% extends 'moban/base.html' %}
+{% load static %}
+{% block title %}
+{{ page.title }}
+{% endblock %}
+{% block body %}
+       <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">{{ page.title }}
+        <small>可定制</small>
+      </h1>
+        <div class="row">
+    <div class="col-12">
+
+
+
+        <img class="img-thumbnail" src="{{ page.pic }}">
+        <p class="card-text">
+            <h2 class="text-danger">价格:{{ page.sale_price.price }}</h2>
+
+        <p class="text-success">
+            {{ page.content }}
+        </p>
+
+        </p>
+
+    </div>
+        </div>
+    </div>
+
+{% endblock %}
