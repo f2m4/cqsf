@@ -17,6 +17,7 @@
     <link href="{% static 'flat/dist/css/flat-ui.css' %}" rel="stylesheet">
     <link href="{% static 'flat/docs/assets/css/demo.css' %}" rel="stylesheet">
 
+
     <link rel="shortcut icon" href="{% static 'flat/img/favicon.ico' %}">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
@@ -44,7 +45,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">分类 <b class="caret"></b></a>
                   <span class="dropdown-arrow"></span>
                   <ul class="dropdown-menu">
-                    <li><a href="#">登陆器</a></li>
+                    <li><a href="{% url 'newmoban' %}">登陆器</a></li>
                     <li><a href="#">静态页面</a></li>
                     <li><a href="#">LOGO</a></li>
                     <li class="divider"></li>

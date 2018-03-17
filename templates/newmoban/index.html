@@ -17,11 +17,13 @@
           {% for page_of_login in page_of_logins.object_list %}
               <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
               <div class="card h-100">
-{#                <a href="{% url 'page_login' page_of_login.id %}"><img class="card-img-top" src="{{ page_of_login.pic }}" alt=""></a>#}
-                <img class="img-rounded img-responsive" src="{{ page_of_login.pic }}">
+                <a href="{% url 'login_page' page_of_login.id %}">
+                <img style="width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);" src="{{ page_of_login.pic }}"></a>
                 <div class="card-body">
                   <h6 class="card-title">
-                    <a href="#">{{ page_of_login.title }}</a>
+                    <a href="{% url 'login_page' page_of_login.id %}">{{ page_of_login.title }}</a>
                   </h6>
                   <p class="card-text palette palette-alizarin">价格:{{ page_of_login.sale_price.price }}</p>
                     {{ page_of_login.content|striptags|truncatechars:70 }}

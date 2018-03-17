@@ -5,4 +5,5 @@ urlpatterns=[
     path('moban/',views.moban,name='moban_index'),
     path('page_login/<int:id>',views.page_one,name='page_login'),
     path('newmoban/',views.newmoban,name='newmoban'),
+    path('login_page/<int:id>',views.login_pageone,name='login_page'),
 ]

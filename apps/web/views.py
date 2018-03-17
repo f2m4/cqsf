@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from . import models
 from django.core.paginator import Paginator
 # Create your views here.
@@ -30,3 +30,8 @@ def newmoban(request):
     context={}
     context['page_of_logins']=page_of_logins
     return render(request,'newmoban/index.html',context)
+#登陆器查看页面
+def login_pageone(request,id):
+    context={}
+    context['login']=get_object_or_404(models.LoginTemplates,pk=id)
+    return render(request,'newmoban/login_pageone.html',context)

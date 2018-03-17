@@ -26,7 +26,7 @@
                     <a href="#">{{ page_of_login.title }}</a>
                   </h4>
                   <p class="card-text">价格:{{ page_of_login.sale_price.price }}</p>
-                    {{ page_of_login.content|safe }}
+                    {{ page_of_login.content|striptags|truncatechars:70 }}
                 </div>
               </div>
             </div>
