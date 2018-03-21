@@ -1,13 +1,15 @@
-{% extends 'nmoban/base.html' %}
+{% extends 'web/base.html' %}
 {% load static %}
 {% block title %}
-
+{{ login.title }}
 {% endblock %}
-{% block body %}
+{% block body%}
+    <br><br><br><br><br>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="text-center">{{ login.title }}</h1>
+                <br>
                 {{ login.content|safe }}
 
             </div>

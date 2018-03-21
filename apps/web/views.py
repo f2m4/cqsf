@@ -51,3 +51,17 @@ def nlogin_pageone(request,id):
     context={}
     context['login']=get_object_or_404(models.LoginTemplates,pk=id)
     return render(request,'nmoban/login_pageone.html',context)
+
+#统一风格的模板页面
+def logint(request):
+    page_num = request.GET.get('page', 1)  # 获取url的页面参数get请求
+    logins=models.LoginTemplates.objects.all()
+    paginator=Paginator(logins,8)
+    page_of_logins=paginator.get_page(page_num)
+    context={}
+    context['page_of_logins']=page_of_logins
+    return render(request,'web/logint.html',context)
+def logint_pageone(request,id):
+    context={}
+    context['login']=get_object_or_404(models.LoginTemplates,pk=id)
+    return render(request,'web/login_pageone.html',context)

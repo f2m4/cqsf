@@ -1,64 +1,11 @@
+{% extends 'web/base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% block title %}
+经典传奇
+{% endblock %}
 
-  <head>
+{% block body %}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Freelancer - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{% static 'web/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="{% static 'web/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
-{#    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">#}
-{#    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">#}
-
-    <!-- Plugin CSS -->
-    <link href="{% static 'web/vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template -->
-    <link href="{% static 'web/css/freelancer.min.css' %}" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">传奇sf专业设计</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          菜单
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item mx-0 mx-lg-1">
-
-
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{% url 'nmoban' %}">模板</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-
-
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">项目</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">关于</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">联系方式</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <!-- Header -->
     <header class="masthead bg-primary text-dark text-center" style="background: url({% static 'web/img/portfolio/bg_a649917.jpg' %}) no-repeat center top">
@@ -87,17 +34,17 @@
                   </i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'web/img/portfolio/dengluqi.webp' %}" alt="">
+              <img class="img-fluid" src="{% static 'web/img/LEGandBLUE.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x">网页</i>
+                  <i class="fa fa-search-plus fa-3x">登陆器</i>
                 </div>
               </div>
-              <img class="img-fluid" src="{% static 'web/img/portfolio/webmoban.png' %}" alt="">
+              <img class="img-fluid" src="{% static 'web/img/morelogin.png' %}" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -186,9 +133,9 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center ">
-              <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
-                  <img border="0" src="{% static 'web/img/qq.png' %}" alt="点击这里给我发消息" title="点击这里给我发消息"/>
-              </a>
+
+                  <img border="0" src="{% static 'web/img/weixin.jpg' %}" alt="微信扫一下" title="24小时在线"/>
+
 
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
@@ -232,67 +179,6 @@
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">2215 John Daniel Drive
-              <br>Clark, MO 65243</p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-dribbble"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; Your Website 2018</small>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
     <!-- Portfolio Modals -->
 
     <!-- Portfolio Modal 1 -->
@@ -304,11 +190,11 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">登陆器制作</h2>
+              <h2 class="text-secondary text-uppercase mb-0">LEG&BLUE</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/dengluqi.webp' %}" alt="">
-              <p class="mb-5">传奇sf登陆器专业制作.</p>
-              <a class="btn btn-primary btn-lg" href="{% url 'nmoban' %}">
+              <img class="img-fluid mb-5" src="{% static 'web/img/LEGandBLUE.png' %}" alt="">
+              <p class="mb-5">LEG&BLUE引擎登陆器</p>
+              <a class="btn btn-primary btn-lg" href="{% url 'logint' %}">
                 <i class="fa fa-close"></i>
                 查看模板</a>
             </div>
@@ -326,13 +212,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">EE,GOM,HERO</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="{% static 'web/img/portfolio/webmoban.png' %}" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <img class="img-fluid mb-5" src="{% static 'web/img/morelogin.png' %}" alt="">
+              <p class="mb-5">GEE,GOM,HERO,HXM2幻想,神佑,绿色,登录器</p>
+              <a class="btn btn-primary btn-lg" href="{% url 'logint' %}">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                查看模板</a>
             </div>
           </div>
         </div>
@@ -426,22 +312,4 @@
         </div>
       </div>
     </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="{% static 'web/vendor/jquery/jquery.min.js' %}"></script>
-    <script src="{% static 'web/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="{% static 'web/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
-    <script src="{% static 'web/vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="{% static 'web/js/jqBootstrapValidation.js' %}"></script>
-    <script src="{% static 'web/js/contact_me.js' %}"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="{% static 'web/js/freelancer.min.js' %}"></script>
-
-  </body>
-
-</html>
+{% endblock %}
