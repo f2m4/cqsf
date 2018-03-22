@@ -21,10 +21,10 @@
                 <a href="{% url 'logint_page' page_of_login.id %}">
                 <img class="card-img-top" src="{{ page_of_login.pic }}"></a>
                 <div class="card-body">
-                  <h6 class="card-title">
+                  <h6 class="card-title text-center">
                     <a href="{% url 'logint_page' page_of_login.id %}">{{ page_of_login.title }}</a>
                   </h6>
-                  <p class="card-text palette palette-alizarin">价格:{{ page_of_login.sale_price.price }}</p>
+                  <p class="card-text text-danger text-center">价格:{{ page_of_login.sale_price.price }}</p>
                     {{ page_of_login.content|striptags|truncatechars:70 }}
                 </div>
               </div>
