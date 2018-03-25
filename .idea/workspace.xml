@@ -2,297 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896a26cf-fad5-44e0-a412-fe2f0b0378e1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/flat-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/flat-ui.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/flat-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/glyphicons/flat-ui-icons-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/glyphicons/flat-ui-icons-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/glyphicons/flat-ui-icons-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/glyphicons/flat-ui-icons-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/glyphicons/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bolditalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-bolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/fonts/lato/lato-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Clipboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Compas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Gift-Box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Infinity-Loop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Pensils.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Pocket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Retina-Ready.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Toilet-Paper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/png/Watches.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/clocks.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/compas.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/gift-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/paper-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/pencils.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/retina.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/ribbon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/icons/svg/toilet-paper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/login/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/login/imac-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/login/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/tile/ribbon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/img/tile/ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/flat-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/flat-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/video-js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/dist/js/vendor/video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/demo.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/docs.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/src/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/src/docs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/css/src/prettyprint.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-author.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser-pic-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/html-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/logo-mask-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/logo-mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/demo/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/example-image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/footer/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/getting-started/icomoon_import.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/img/video/poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/assets/js/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/dropdowns.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/forms.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/navbar-fixed-top.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/navbar-static-top.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/navbars-with-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/navbars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/radiocheck.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/switches.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/tagsinput.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/thumbnails.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/tiles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/todo-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/tooltips.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/typography.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/examples/vertical-slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/docs/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/glyphicons/flat-ui-icons-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/glyphicons/flat-ui-icons-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/glyphicons/flat-ui-icons-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/glyphicons/flat-ui-icons-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/glyphicons/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bolditalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-bolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/fonts/lato/lato-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Clipboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Compas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Gift-Box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Infinity-Loop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Pensils.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Pocket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Retina-Ready.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Toilet-Paper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/png/Watches.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/clocks.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/compas.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/gift-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/paper-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/pencils.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/retina.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/ribbon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/icons/svg/toilet-paper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/login/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/login/imac-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/login/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/tile/ribbon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/img/tile/ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/js/.jscs.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/js/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/js/radiocheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/flat-ui.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/background-clip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/navbar-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/pallets.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/select.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/switches.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/local-fonts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/login.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/palette.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/radiocheck.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/select.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/share.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/switch.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/tagsinput.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/tiles.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/todo-list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/typeahead.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/modules/video.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/spaces.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flat/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/slate/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/moban/page_login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/newmoban/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/newmoban/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/newmoban/login_pageone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nmoban/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nmoban/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/nmoban/login_pageone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/startbootstrap-4-col-portfolio-gh-pages.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/startbootstrap-freelancer-gh-pages.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/base.html" afterPath="$PROJECT_DIR$/templates/web/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/index.html" afterPath="$PROJECT_DIR$/templates/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/login_pageone.html" afterPath="$PROJECT_DIR$/templates/web/login_pageone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/logint.html" afterPath="$PROJECT_DIR$/templates/web/logint.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -370,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_pageone.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_pageone.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/web/login_pageone.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -383,18 +95,18 @@
       <file leaf-file-name="logint.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/web/logint.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="-367">
+              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state relative-caret-position="488">
+              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -403,8 +115,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/web/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="45" column="102" lean-forward="true" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="102" />
+            <state relative-caret-position="-551">
+              <caret line="37" column="90" lean-forward="true" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/web/vendor/font-awesome/css/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="1533" column="5" lean-forward="false" selection-start-line="1533" selection-start-column="5" selection-end-line="1533" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -444,6 +166,7 @@
       <find>small</find>
       <find>card</find>
       <find>portfolio-modal-1</find>
+      <find>f1d6</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -472,10 +195,10 @@
         <option value="$PROJECT_DIR$/templates/nmoban/login_pageone.html" />
         <option value="$PROJECT_DIR$/apps/web/urls.py" />
         <option value="$PROJECT_DIR$/apps/web/views.py" />
-        <option value="$PROJECT_DIR$/templates/web/base.html" />
-        <option value="$PROJECT_DIR$/templates/web/index.html" />
         <option value="$PROJECT_DIR$/templates/web/logint.html" />
         <option value="$PROJECT_DIR$/templates/web/login_pageone.html" />
+        <option value="$PROJECT_DIR$/templates/web/base.html" />
+        <option value="$PROJECT_DIR$/templates/web/index.html" />
       </list>
     </option>
   </component>
@@ -507,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,6 +255,10 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -545,6 +271,114 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +453,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -908,9 +743,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15688367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15848452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.49786553" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.51280683" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15101388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,31 +811,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#303#312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3200">
@@ -1113,19 +922,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/flat/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7106">
-          <caret line="374" column="22" lean-forward="false" selection-start-line="374" selection-start-column="17" selection-end-line="374" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/flat/index.html" />
     <entry file="dbDummy://dbtable:/ea7c6282/feb75974-326c-4b50-ab93-83fef999cb16/sf.web_logintemplates">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1145,14 +945,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban/page_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/moban/page_login.html" />
     <entry file="file://$PROJECT_DIR$/static/web/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -1186,68 +979,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/flat/dist/css/flat-ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="4" column="11194" lean-forward="false" selection-start-line="4" selection-start-column="11190" selection-end-line="4" selection-end-column="11194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newmoban/login_pageone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="81" lean-forward="false" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/moban/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newmoban/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newmoban/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nmoban/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/flat/dist/css/flat-ui.css" />
+    <entry file="file://$PROJECT_DIR$/static/flat/dist/css/vendor/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/templates/newmoban/login_pageone.html" />
+    <entry file="file://$PROJECT_DIR$/templates/moban/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/moban/base.html" />
+    <entry file="file://$PROJECT_DIR$/templates/newmoban/base.html" />
+    <entry file="file://$PROJECT_DIR$/templates/newmoban/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/nmoban/base.html" />
     <entry file="file://$PROJECT_DIR$/static/web/img/portfolio/safe.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1295,14 +1034,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nmoban/login_pageone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nmoban/login_pageone.html" />
     <entry file="file://$PROJECT_DIR$/sf/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1311,14 +1043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nmoban/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nmoban/index.html" />
     <entry file="file://$PROJECT_DIR$/apps/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
@@ -1337,34 +1062,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/web/login_pageone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="45" column="102" lean-forward="true" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/logint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="-367">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/login_pageone.html">
+    <entry file="file://$PROJECT_DIR$/static/web/vendor/font-awesome/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="292">
+          <caret line="3" column="10372" lean-forward="false" selection-start-line="3" selection-start-column="10372" selection-end-line="3" selection-end-column="10372" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/vendor/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="1533" column="5" lean-forward="false" selection-start-line="1533" selection-start-column="5" selection-end-line="1533" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/vendor/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="37" column="90" lean-forward="true" selection-start-line="37" selection-start-column="90" selection-end-line="37" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
           <folding />
         </state>
       </provider>
