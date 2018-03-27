@@ -482,96 +482,101 @@ model</ColNames>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="114" parent="20" name="web_logintemplates_sale_price_id_00d7f27e_fk_web_saletype_id">
+    <column id="114" parent="20" name="pic">
+      <Position>9</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="115" parent="20" name="web_logintemplates_sale_price_id_00d7f27e_fk_web_saletype_id">
       <ColNames>sale_price_id</ColNames>
     </index>
-    <key id="115" parent="20" name="PRIMARY">
+    <key id="116" parent="20" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="116" parent="20" name="web_logintemplates_sale_price_id_00d7f27e_fk_web_saletype_id">
+    <foreign-key id="117" parent="20" name="web_logintemplates_sale_price_id_00d7f27e_fk_web_saletype_id">
       <ColNames>sale_price_id</ColNames>
       <RefSchemaName>sf</RefSchemaName>
       <RefTableName>web_saletype</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="117" parent="21" name="id">
+    <column id="118" parent="21" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="118" parent="21" name="title">
+    <column id="119" parent="21" name="title">
       <Position>2</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="119" parent="21" name="content">
+    <column id="120" parent="21" name="content">
       <Position>3</Position>
       <DataType>longtext|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="120" parent="21" name="price">
+    <column id="121" parent="21" name="price">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="121" parent="21" name="PRIMARY">
+    <key id="122" parent="21" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="122" parent="22" name="id">
+    <column id="123" parent="22" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="123" parent="22" name="title">
+    <column id="124" parent="22" name="title">
       <Position>2</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="124" parent="22" name="content">
+    <column id="125" parent="22" name="content">
       <Position>3</Position>
       <DataType>longtext|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="125" parent="22" name="saled_num">
+    <column id="126" parent="22" name="saled_num">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="126" parent="22" name="looked_num">
+    <column id="127" parent="22" name="looked_num">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="127" parent="22" name="cr_date">
+    <column id="128" parent="22" name="cr_date">
       <Position>6</Position>
       <DataType>datetime(6)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="128" parent="22" name="ch_date">
+    <column id="129" parent="22" name="ch_date">
       <Position>7</Position>
       <DataType>datetime(6)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="129" parent="22" name="sale_price_id">
+    <column id="130" parent="22" name="sale_price_id">
       <Position>8</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="130" parent="22" name="web_webtemplates_sale_price_id_c1ebc97c_fk_web_saletype_id">
+    <index id="131" parent="22" name="web_webtemplates_sale_price_id_c1ebc97c_fk_web_saletype_id">
       <ColNames>sale_price_id</ColNames>
     </index>
-    <key id="131" parent="22" name="PRIMARY">
+    <key id="132" parent="22" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="132" parent="22" name="web_webtemplates_sale_price_id_c1ebc97c_fk_web_saletype_id">
+    <foreign-key id="133" parent="22" name="web_webtemplates_sale_price_id_c1ebc97c_fk_web_saletype_id">
       <ColNames>sale_price_id</ColNames>
       <RefSchemaName>sf</RefSchemaName>
       <RefTableName>web_saletype</RefTableName>

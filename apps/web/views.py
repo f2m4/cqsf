@@ -63,5 +63,28 @@ def logint(request):
     return render(request,'web/logint.html',context)
 def logint_pageone(request,id):
     context={}
-    context['login']=get_object_or_404(models.LoginTemplates,pk=id)
+    this_login=get_object_or_404(models.LoginTemplates,pk=id)
+    this_login.looked_num+=1
+    this_login.save()
+    context['login']=this_login
+
     return render(request,'web/login_pageone.html',context)
+
+#获取leg,blue类型的登陆器
+def login_lb(request):
+    page_num = request.GET.get('page', 1)  # 获取url的页面参数get请求
+    logins = models.LoginTemplates.objects.filter(sale_price=6)
+    paginator = Paginator(logins, 9)
+    page_of_logins = paginator.get_page(page_num)
+    context = {}
+    context['page_of_logins'] = page_of_logins
+    return render(request, 'web/logint.html', context)
+#获取gee,gom,green,hxm类型的登陆器
+def login_gh(request):
+    page_num = request.GET.get('page', 1)  # 获取url的页面参数get请求
+    logins = models.LoginTemplates.objects.filter(sale_price=5)
+    paginator = Paginator(logins, 9)
+    page_of_logins = paginator.get_page(page_num)
+    context = {}
+    context['page_of_logins'] = page_of_logins
+    return render(request, 'web/logint.html', context)

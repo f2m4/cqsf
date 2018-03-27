@@ -13,6 +13,7 @@ class SaleType(models.Model):
         return self.title
 
 class WebTemplates(models.Model):
+    author = models.CharField(max_length=20, default='兵器太邪门')
     title = models.CharField(max_length=30)
     content = RichTextUploadingField()
     sale_price=models.ForeignKey("SaleType",on_delete=models.DO_NOTHING)
@@ -27,6 +28,7 @@ class WebTemplates(models.Model):
         ordering=['-cr_date']
 
 class LoginTemplates(models.Model):
+    author=models.CharField(max_length=20,default='菇凉佳佳佳')
     title = models.CharField(max_length=30)
     pic=models.TextField(default='')
     content = RichTextUploadingField()

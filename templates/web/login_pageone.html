@@ -6,13 +6,41 @@
 {% block body%}
     <br><br><br><br><br>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="text-center">{{ login.title }}</h1>
-                <br>
-                <h3 class="text-danger text-center">价格:{{ login.sale_price.price }}</h3>
-                {{ login.content|safe }}
 
+        <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">{{ login.title }}</h1>
+                    <br>
+                    <h3 class="text-danger text-center">价格:{{ login.sale_price.price }}</h3>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <span>作者:{{ login.author }}</span>
+            </div>
+            <div class="col-md-4">
+                <span>发布时间:{{ login.cr_date }}</span>
+            </div>
+            <div class="col-md-4">
+                <span>点击:{{ login.looked_num }}次</span>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                {{ login.content|safe }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span>上一个:{{ login.get_next_in_order }}</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span>下一个:</span>
             </div>
         </div>
     </div>
