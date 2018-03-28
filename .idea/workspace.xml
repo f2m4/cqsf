@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896a26cf-fad5-44e0-a412-fe2f0b0378e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/base.html" afterPath="$PROJECT_DIR$/templates/web/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/web/login_pageone.html" afterPath="$PROJECT_DIR$/templates/web/login_pageone.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,8 +124,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/web/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="117" column="106" lean-forward="false" selection-start-line="117" selection-start-column="106" selection-end-line="117" selection-end-column="106" />
+            <state relative-caret-position="379">
+              <caret line="98" column="121" lean-forward="false" selection-start-line="98" selection-start-column="121" selection-end-line="98" selection-end-column="121" />
               <folding />
             </state>
           </provider>
@@ -1214,8 +1212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="117" column="106" lean-forward="false" selection-start-line="117" selection-start-column="106" selection-end-line="117" selection-end-column="106" />
+        <state relative-caret-position="379">
+          <caret line="98" column="121" lean-forward="false" selection-start-line="98" selection-start-column="121" selection-end-line="98" selection-end-column="121" />
           <folding />
         </state>
       </provider>
