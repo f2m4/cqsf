@@ -35,10 +35,22 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <span>上一个:</span>
+                <span>上一个:
+                    {% if previous_login %}
+                            <a href="{% url 'logint_page' previous_login.pk %}">{{ previous_login }}</a></span>
+                        {% else %}
+                        尽情期待更多...
+                    {% endif %}
+
             </div>
             <div class="col-md-6">
-                <span>下一个:</span>
+                <span>下一个:
+                    {% if next_login %}
+                                 <a href="{% url 'logint_page' next_login.pk %}">{{ next_login }}</a></span>
+                        {% else %}
+                        没有了.
+                    {% endif %}
+
             </div>
         </div>
 

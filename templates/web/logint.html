@@ -51,15 +51,25 @@
             {% endif %}
 
         </li>
-          {% for page_num in page_of_logins.paginator.page_range %}
+          {% for page_num in page_list %}
               {% if page_num == page_of_logins.number %}
                   <li class="page-item active">
                   <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
               </li>
               {% else %}
+
+
+                  {% if page_num == '...' %}
                   <li class="page-item">
+                  <a class="page-link">{{ page_num }}</a>
+                  </li>
+                  {% else %}
+                     <li class="page-item">
                   <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
-              </li>
+                  </li>
+
+                  {% endif %}
+
               {% endif %}
 
           {% endfor %}
