@@ -15,3 +15,8 @@ class WebTemplatesAdmin(admin.ModelAdmin):
 class LoginTemplatesAdmin(admin.ModelAdmin):
     fields = ('author','title', 'content', 'pic','sale_price', 'saled_num', 'looked_num')
     list_display = ('id','author','title', 'pic','content', 'sale_price', 'saled_num', 'looked_num', 'cr_date', 'ch_date')
+@admin.register(models.SucaiModel)
+class SucalAdmin(admin.ModelAdmin):
+    fields = ('author','title', 'content', 'pic','sale_price', 'saled_num', 'looked_num')
+    list_display = (
+    'id', 'author', 'title', 'pic', 'content', 'sale_price', 'saled_num', 'looked_num', 'cr_date', 'ch_date')

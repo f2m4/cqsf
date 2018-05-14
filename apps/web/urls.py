@@ -12,4 +12,6 @@ urlpatterns=[
     path('logint_page/<int:id>',views.logint_pageone,name='logint_page'),
     path('login_lb/',views.login_lb,name='login_lb'),
     path('login_gh/',views.login_gh,name='login_gh'),
+    path('sucai/',views.sucai,name='sucal'),
+    path('sucai_pageone/<int:id>',views.su_pageone,name='sucai_pageone'),
 ]

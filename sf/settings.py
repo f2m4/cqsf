@@ -15,9 +15,8 @@ import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#将apps文件夹导入到进系统根目录
-sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
-
+# 将apps文件夹导入到进系统根目录
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -29,7 +28,6 @@ SECRET_KEY = 'qj9!)v8jlvoy2*@s85*r$t!rr_4c5zr!7(97i&_vp-8f7%2*99'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -60,7 +58,7 @@ ROOT_URLCONF = 'sf.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,7 +73,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'sf.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -83,13 +80,15 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sf',
-        'USER': 'root',
-        'PASSWORD':'root',
+        'USER': 'sf',
+        'PASSWORD': 'sf666',
         'HOST': '127.0.0.1',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        },
 
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -109,7 +108,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
@@ -123,17 +121,16 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-#将根目录下面的static目录,设置成static文件目录
-STATICFILES_DIRS=[os.path.join(BASE_DIR, 'static'),]
+# 将根目录下面的static目录,设置成static文件目录
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 
-#设置媒体文件路径和url地址路径
+# 设置媒体文件路径和url地址路径
 MEDIA_URL = '/media/'
-MEDIA_ROOT=os.path.join(BASE_DIR, "media")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-#配置ckeditor,上传目录
-CKEDITOR_UPLOAD_PATH='upload/'
+# 配置ckeditor,上传目录
+CKEDITOR_UPLOAD_PATH = 'upload/'

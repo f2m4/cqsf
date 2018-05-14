@@ -1,0 +1,58 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block title %}
+{{ login.title }}
+{% endblock %}
+{% block body%}
+    <br><br><br><br><br>
+    <div class="container">
+
+        <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-center">{{ su.title }}</h1>
+                    <br>
+                    <h3 class="text-danger text-center">价格:{{ su.sale_price.price }}</h3>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <span>作者:{{ su.author }}</span>
+            </div>
+            <div class="col-md-4">
+                <span>发布时间:{{ su.cr_date }}</span>
+            </div>
+            <div class="col-md-4">
+                <span>点击:{{ su.looked_num }}次</span>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                {{ su.content|safe }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span>上一个:
+                    {% if previous_su %}
+                            <a href="{% url 'sucai_pageone' previous_su.pk %}">{{ previous_su }}</a></span>
+                        {% else %}
+                        尽情期待更多...
+                    {% endif %}
+
+            </div>
+            <div class="col-md-6">
+                <span>下一个:
+                    {% if next_su %}
+                                 <a href="{% url 'sucai_pageone' next_su.pk %}">{{ next_su }}</a></span>
+                        {% else %}
+                        没有了.
+                    {% endif %}
+
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

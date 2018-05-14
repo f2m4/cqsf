@@ -143,3 +143,41 @@ def login_gh(request):
 
     context['page_of_logins'] = page_of_logins
     return render(request, 'web/logint.html', context)
+
+def sucai(request):
+    page_num = request.GET.get('page', 1)  # 获取url的页面参数get请求
+    su = models.SucaiModel.objects.all()
+    paginator = Paginator(su, page_has_number)
+    page_of_su = paginator.get_page(page_num)
+    context = {}
+
+    # 获取当前页面
+    current_page = page_of_su.number
+    # 获取当前页及前后两页的列表
+    page_list = list(range(max(1, current_page - 2), current_page)) + \
+                list(range(current_page, min(paginator.num_pages, current_page + 2) + 1))
+    # 添加省略页码
+    if current_page - 2 > 2:
+        page_list.insert(0, '...')
+    if paginator.num_pages - current_page > 3:
+        page_list.append('...')
+    # 添加首页和尾页
+    if page_list[0] != 1:
+        page_list.insert(0, 1)
+    if page_list[-1] != paginator.num_pages:
+        page_list.append(paginator.num_pages)
+    context['page_list'] = page_list
+
+    context['page_of_su'] = page_of_su
+    return render(request, 'web/su.html', context)
+
+def su_pageone(request,id):
+    context={}
+    detail_one=get_object_or_404(models.SucaiModel,pk=id)
+    context['previous_su']=models.LoginTemplates.objects.filter(cr_date__gt=detail_one.cr_date).last()
+    context['next_su'] = models.LoginTemplates.objects.filter(cr_date__lt=detail_one.cr_date).first()
+    detail_one.looked_num+=1
+    detail_one.save()
+    context['su']=detail_one
+
+    return render(request,'web/su_pageone.html',context)
